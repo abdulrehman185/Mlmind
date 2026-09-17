@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ML Mind - Learn Machine Learning from fundamentals to advanced concepts.">
+  <title>ML Mind | Learn Machine Learning</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+  <a href="#home" class="logo">
+    <span class="logo-mark">ML</span>
+    <span>Mind</span>
+  </a>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <nav class="nav" id="nav">
+    <a href="#home" class="active">Home</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#algorithms">Algorithms</a>
+    <a href="#math">Math</a>
+    <a href="#projects">Projects</a>
+    <a href="#glossary">Glossary</a>
+  </nav>
+
+  <button class="theme-btn" id="themeBtn">☼</button>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <div class="eyebrow">
+      <span></span>
+      MACHINE LEARNING LEARNING HUB
+    </div>
+
+    <h1>
+      Train your <em>mind</em><br>
+      to think like a model.
+    </h1>
+
+    <p>
+      ML Mind turns machine learning into a clear journey —
+      from Python and mathematics to algorithms, projects,
+      and real-world AI.
+    </p>
+
+    <div class="hero-actions">
+
+      <a href="#roadmap" class="btn primary">
+        Start Learning →
+      </a>
+
+      <a href="#algorithms" class="btn secondary">
+        Explore Algorithms
+      </a>
+
+    </div>
+
+    <div class="hero-stats">
+
+      <div>
+        <strong>25+</strong>
+        <span>Core Topics</span>
+      </div>
+
+      <div>
+        <strong>15+</strong>
+        <span>Algorithms</span>
+      </div>
+
+      <div>
+        <strong>10</strong>
+        <span>Projects</span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="brain-card">
+
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+
+    <div class="brain-core">
+
+      <span>∑</span>
+      <span>f(x)</span>
+      <span>01</span>
+      <span>λ</span>
+
+      <b>ML</b>
+
+    </div>
+
+    <div class="float-tag tag-a">Python</div>
+    <div class="float-tag tag-b">Neural Nets</div>
+    <div class="float-tag tag-c">Data</div>
+    <div class="float-tag tag-d">Models</div>
+
+  </div>
+
+</section>
+
+
+
+<section class="section" id="roadmap">
+
+  <div class="section-heading">
+
+    <div>
+      <span class="eyebrow">YOUR LEARNING PATH</span>
+      <h2>The ML Roadmap</h2>
+    </div>
+
+    <p>
+      Follow the path in order or jump directly
+      to the topic you need.
+    </p>
+
+  </div>
+
+
+  <div class="roadmap">
+
+    <article class="road-card">
+
+      <div class="step">01</div>
+
+      <div class="icon">🐍</div>
+
+      <h3>Python & Data</h3>
+
+      <p>
+        Learn Python, NumPy, Pandas, data cleaning
+        and visualization.
+      </p>
+
+      <div class="tags">
+        <span>Python</span>
+        <span>NumPy</span>
+        <span>Pandas</span>
+      </div>
+
+    </article>
+
+
+    <article class="road-card">
+
+      <div class="step">02</div>
+
+      <div class="icon">∑</div>
+
+      <h3>Math for ML</h3>
+
+      <p>
+        Build the mathematical intuition behind
+        machine learning models.
+      </p>
+
+      <div class="tags">
+        <span>Linear Algebra</span>
+        <span>Calculus</span>
+        <span>Probability</span>
+      </div>
+
+    </article>
+
+
+    <article class="road-card">
+
+      <div class="step">03</div>
+
+      <div class="icon">⚙</div>
+
+      <h3>Core Algorithms</h3>
+
+      <p>
+        Understand how supervised and unsupervised
+        algorithms learn.
+      </p>
+
+      <div class="tags">
+        <span>Regression</span>
+        <span>Trees</span>
+        <span>Clustering</span>
+      </div>
+
+    </article>
+
+
+    <article class="road-card">
+
+      <div class="step">04</div>
+
+      <div class="icon">◉</div>
+
+      <h3>Deep Learning</h3>
+
+      <p>
+        Move into neural networks, CNNs,
+        transformers and modern AI.
+      </p>
+
+      <div class="tags">
+        <span>Neural Nets</span>
+        <span>CNN</span>
+        <span>Transformers</span>
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+
+<section class="section dark-section" id="algorithms">
+
+  <div class="section-heading">
+
+    <div>
+      <span class="eyebrow">MODEL LIBRARY</span>
+      <h2>Explore Algorithms</h2>
+    </div>
+
+    <div class="search-wrap">
+
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search algorithms..."
+      >
+
+      <span>⌕</span>
+
+    </div>
+
+  </div>
+
+
+  <div class="filters" id="filters">
+
+    <button class="filter active" data-filter="all">
+      All
+    </button>
+
+    <button class="filter" data-filter="supervised">
+      Supervised
+    </button>
+
+    <button class="filter" data-filter="unsupervised">
+      Unsupervised
+    </button>
+
+    <button class="filter" data-filter="deep">
+      Deep Learning
+    </button>
+
+  </div>
+
+
+  <div class="algorithm-grid" id="algorithmGrid">
+
+
+    <article
+      class="algorithm-card"
+      data-type="supervised"
+      data-name="linear regression regression"
+    >
+
+      <div class="algo-top">
+
+        <span class="algo-icon">↗</span>
+        <span class="level">Beginner</span>
+
+      </div>
+
+      <h3>Linear Regression</h3>
+
+      <p>
+        Predict a continuous value by learning
+        a relationship between features and a target.
+      </p>
+
+      <div class="formula">
+        ŷ = β₀ + β₁x
+      </div>
+
+      <button
+        class="learn-btn"
+        data-algo="Linear Regression"
+      >
+        Learn more →
+      </button>
+
+    </article>
+
+
+
+    <article
+      class="algorithm-card"
+      data-type="supervised"
+      data-name="logistic regression classification"
+    >
+
+      <div class="algo-top">
+
+        <span class="algo-icon">◒</span>
+        <span class="level">Beginner</span>
+
+      </div>
+
+      <h3>Logistic Regression</h3>
+
+      <p>
+        A classification model that estimates
+        the probability of an outcome.
+      </p>
+
+      <div class="formula">
+        P(y=1|x) = σ(wᵀx)
+      </div>
+
+      <button
+        class="learn-btn"
+        data-algo="Logistic Regression"
+      >
+        Learn more →
+      </button>
+
+   
